@@ -8,3 +8,79 @@
   width: 1200px;
   margin: 200px auto;
 }
+
+.card {
+  width: 700px;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: black;
+}
+
+.card-nav {
+  text-align: center;
+  background-color: limegreen;
+}
+
+.card-footer {
+  text-align: right;
+  background-color: green;
+  color: white
+}
+
+.card-footer * {
+  padding: 5px;
+}
+
+.card-header {
+  text-align: center;
+  color: white;
+  background-color: limegreen;
+  margin: 18px;
+  height: 400px;
+}
+
+.card-body-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+/* 
+.card-body-title * {
+  display: inline-block;
+}
+
+.card-body-title p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+} */
+
+.card-img {
+  height: 330px;
+  width: 100%;
+}
+
+.card-body {
+  display: inline-block;
+  margin: 18px;
+}
+
+.card-body-content {
+  background-color: cornsilk;
+  margin-top: 10px;
+}
+
+.card-body-content p {
+  padding: 5px;
+}
+
+p {
+  font-family: Arial;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+}

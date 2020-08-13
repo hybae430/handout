@@ -3,9 +3,39 @@ body {
   width: 800px;
 }
 
+body * {
+  box-sizing: content-box;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+}
+
+body section article,
+body section article * {
+  background-color: white;
+}
+
+section {
+  display: inline-block;
+  width: 482px;
+  height: 300px;
+}
+
+aside {
+  display: inline-block;
+  width: 280px;
+  height: 300px;
+  vertical-align: top;
+}
+
 /* 모든 스타일링 요소를 클래스로 만들어 사용합니다. */
 
-/* 1. airticle 태그는 white로 나머지 시멘틱 태그는 lightgrey로 배경색을 바꿔주세요. */
+/* 1. article 태그는 white로 나머지 시멘틱 태그는 lightgrey로 배경색을 바꿔주세요. */
 
 /* 2. 모든 시멘틱 태그의 margin과 padding을 4px로 만들어주세요. */
 
@@ -17,4 +47,4 @@ body {
 
 /* 6. aside 태그에 vertical-align속성의 값을 top으로 적용해주세요.*/
 
-/* 7. 모든 semantic 태그의 border 둘레를 4px로 만들어주세요. */
+/* 7. 모든 semantic 태그의 모서리의 반경을 4px로 만들어주세요. */
